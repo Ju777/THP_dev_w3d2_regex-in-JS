@@ -1,3 +1,18 @@
 body {
-    /* background-color: rgb(255, 255, 255); */
+    
+}
+
+.form{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(62, 62, 62);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.error{
+    border : 2px solid red;
+}
+
+.success{
+    border : 3px solid rgb(9, 190, 90);
 }
